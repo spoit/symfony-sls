@@ -1,0 +1,24 @@
+{
+  "name": "symfony-sls",
+  "version": "1.0.0",
+  "description": "serverless symfony",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoit/symfony-sls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoit/symfony-sls/issues"
+  },
+  "homepage": "https://github.com/spoit/symfony-sls#readme",
+  "devDependencies": {
+    "serverless": "^1.70.1",
+    "serverless-dotenv-plugin": "^2.4.2"
+  }
+}
