@@ -1,4 +1,4 @@
-startshell:
+startShell:
 	docker run --rm -v "$(PWD)":/var/task -it bref/dev-env bash
 
 localInstall:
@@ -17,6 +17,6 @@ deploy:
 	docker run --rm -v "$(PWD)":/var/task -it bref/dev-env php bin/console cache:clear --no-debug --no-warmup --env=prod
 	docker run --rm -v "$(PWD)":/var/task -it bref/dev-env php bin/console cache:warmup --env=prod
 	# Prepare JS
-	npm install
+	npm ci
 	# Deploy dev
 	npm run deploy
