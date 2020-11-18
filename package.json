@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "serverless": "serverless"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   },
   "homepage": "https://github.com/spoit/symfony-sls#readme",
   "devDependencies": {
-    "serverless": "^1.70.1",
-    "serverless-dotenv-plugin": "^2.4.2"
+    "serverless": "^2.11.1",
+    "serverless-dotenv-plugin": "^3.1.0"
   }
 }
